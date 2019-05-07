@@ -1,7 +1,7 @@
 /*
  * tegra186-soc-base.dtsi: SoC Base DTSI file.
  *
- * Copyright (c) 2014-2017, NVIDIA CORPORATION.  All rights reserved.
+ * Copyright (c) 2014-2019, NVIDIA CORPORATION.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -892,7 +892,7 @@
 			status = "disabled";
 		};
 
-		nvdec@15480000 {
+		nvdec: nvdec@15480000 {
 			compatible = "nvidia,tegra186-nvdec";
 			power-domains = <&nvdec_pd>;
 			reg = <0x0 0x15480000 0x0 0x00040000>;
